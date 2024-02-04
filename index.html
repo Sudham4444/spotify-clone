@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="song_list">
+            <h1>Best of SS - No Copyright Sounds</h1>
+            <div class ="song_item_container">
+                <div class="song_item">
+                    <img src="covers/cover1.jpg" alt="1">
+                    <span class="song_name">Main Rang sharbaton ka</span>
+                    <span class="songlistplay"><span class="timestamp">04:23 <i id="0"class="far song_item_play fa-play-circle"></i></span></span>
+                </div>
+                <div class="song_item">
+                    <img src="covers/cover2.jpg" alt="1">
+                    <span class="song_name">Mahi Aaja</span>
+                    <span class="songlistplay"><span class="timestamp">03:20 <i id="1" class="far song_item_play fa-play-circle"></i></span></span>
+                </div>
+                <div class="song_item">
+                    <img src="covers/cover3.jpg" alt="1">
+                    <span class="song_name">Sanso Ko Jeenae Ka Sahara</span>
+                    <span class="songlistplay"><span class="timestamp">03:59 <i id="2"class="far song_item_play fa-play-circle" ></i></span></span>
+                </div>
+                <div class="song_item">
+                    <img src="covers/cover4.jpg" alt="1">
+                    <span class="song_name">Suraj Hua Maddham</span>
+                    <span class="songlistplay"><span class="timestamp">07:05 <i id="3" class="far song_item_play fa-play-circle"></i></span></span>
+                </div>
+                <div class="song_item">
+                    <img src="covers/cover5.jpg" alt="1">
+                    <span class="song_name">Wada Raha Sanam</span>
+                    <span class="songlistplay"><span class="timestamp">06:06 <i id="4" class="far song_item_play fa-play-circle"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="song_banner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" title="range" id="my_progress_bar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-step-backward fa-3x" id="previous"></i>
+            <i class="far fa-play-circle fa-3x" id="master_play"></i>
+            <i class="fas fa-step-forward fa-3x" id="next"></i> 
+        </div>
+        <div class="song_info">
+            <img src="playing.gif" width="42px" alt="" id="gif"> <span id="master_song_name"> Main Rang sharbaton ka</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</body>
+</html>
